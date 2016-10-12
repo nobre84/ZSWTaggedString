@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "ZSWTaggedString"
-  s.version          = "2.0"
+  s.version          = "3.0"
   s.summary          = "Converts a String (or NSString) with tags (like HTML) into an NSAttributedString"
   s.description      = <<-DESC
                         Tags in a ZSWTaggedString are like HTML, except you define what they mean.
@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.homepage         = "https://github.com/zacwest/ZSWTaggedString"
   s.license          = 'MIT'
   s.author           = { "Zachary West" => "zacwest@gmail.com" }
-  s.source           = { :git => "https://github.com/zacwest/ZSWTaggedString.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/nobre84/ZSWTaggedString.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/zacwest'
 
   s.requires_arc = true
